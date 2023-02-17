@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TecnoIranzo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/Arrays.js"></script>
+    <script defer src="./js/Funciones.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+        <h1>Tienda de electrodomesticos TecnoIranzo</h1>
+        <img class="img"  src="./img/logo-compu.png" alt="Compu">
+        </nav>
+    </header>
+    <main>
+        <section class="botones">
+            <button class="button" onclick="buscarProducto()">BUSCAR</button>
+            <button class="button" onclick="filtrarProductos()">FILTRAR</button>
+            <button class="button" onclick="existeProducto()">¿DISPONIBLE?</button>
+            <button class="button" onclick="ordenarProductos()">ORDENAR</button>
+            <button class="button" id="refresh">Recargar</button>
+            <hr>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>PRODUCTO</th>
+                        <th>IMPORTE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1234</td>
+                        <td>descripcion del PRODUCTO</td>
+                        <td>1000.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

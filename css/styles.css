@@ -1,0 +1,26 @@
+.button{
+    color: white;
+    background-color: #6B38A9;
+}
+
+.button:hover{
+    color: yellow;
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.img{
+    width: 10vw;
+    height: 15vh;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
